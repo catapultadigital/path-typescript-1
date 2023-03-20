@@ -1,12 +1,10 @@
-import React from 'react';
-import Counter from './components/counter';
+import { Navigation } from './routes/navigation';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React</h1>
-      <Counter />
-    </div>
+    <>
+      <Navigation />
+    </>
   );
 }
 

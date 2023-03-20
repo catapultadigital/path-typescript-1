@@ -6,10 +6,10 @@ export default (): JSX.Element => {
   const count_element = useRef<HTMLHeadingElement>(null);
 
   return (
-    <>
+    <section>
       <h1 ref={count_element}>Counter: {count}</h1>
       <h1>Clicks: {clicks}</h1>
       <button onClick={() => handle_click(5)}>+1</button>
-    </>
+    </section>
   )
 };
