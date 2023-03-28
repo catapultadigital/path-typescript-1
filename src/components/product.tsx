@@ -1,8 +1,8 @@
 interface Props {
-  product: Product,
+  product: ProductInterface,
 };
 
-interface Product {
+interface ProductInterface {
   id: number,
   title: string,
   body: string,
