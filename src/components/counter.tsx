@@ -7,9 +7,12 @@ export default (): JSX.Element => {
 
   return (
     <section>
-      <h1 ref={count_element}>Counter: {count}</h1>
-      <h1>Clicks: {clicks}</h1>
+      <h1>Counter page</h1>
+      <p>This is a first step to learn Typescript by coding.</p>
+      <hr />
+      <h2 ref={count_element}>Counter: {count}</h2>
+      <h2>Clicks: {clicks}</h2>
       <button onClick={() => handle_click(5)}>+1</button>
     </section>
-  )
+  );
 };
