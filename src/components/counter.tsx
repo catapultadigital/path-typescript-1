@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { useCounter } from '../hooks/counter-hook';
 
-export default (): JSX.Element => {
+const Counter = (): JSX.Element => {
   const { count, clicks, handle_click } = useCounter();
   const count_element = useRef<HTMLHeadingElement>(null);
 
@@ -16,3 +16,5 @@ export default (): JSX.Element => {
     </section>
   );
 };
+
+export default Counter;
